@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+<head>
+  <title></title>
+    <!--FONT AWESOME-->
+    <script src="https://use.fontawesome.com/dd84b606c4.js"></script>
+    <!-- <script src="https://use.fontawesome.com/2aa4f1c52f.js"></script> -->
+    <!--BOOTSTRAP CSS-->
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <!--BOOTSTRAP JS/JQUERY-->
+    <script src="https://code.jquery.com/jquery-2.1.3.js"></script>
+    <script src="bootstrap/js/bootstrap.js"></script>
+    <!--INTERNAL LINKS-->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/animate.css">
+    <link rel="stylesheet" type="text/css" href="css/hover.css">
+    <!--JQUERY-->
+    <script src="https://code.jquery.com/jquery-1.12.3.min.js" integrity="sha256-aaODHAgvwQW1bFOGXMeX+pC4PZIPsvn2h1sArYOhgXQ=" crossorigin="anonymous"></script>
+    <!--ANGULARJS-->
+    <script src="https://code.angularjs.org/1.2.9/angular.min.js"></script>
+    <script src="https://code.angularjs.org/1.2.9/angular-route.min.js"></script>
+    <!--GOOGLE FONTS-->
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,700" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css?family=Monoton" rel="stylesheet">
+</head>
+<body>
+
+<div id="top-container">
+  <div id="first-nav">
+    <ul>
+      <li><a href="#">HOME</a></li>
+      <hr>
+      <li><a href="#/second">PASSION</a></li>
+      <hr>
+      <li><a href="#/third">ABOUT</a></li>
+      <hr>
+      <li><a href="#/fourth">CONTACT</a></li>
+    </ul>
+  </div>
+
+  <div id="main-scope">
+    <div ng-view></div>
+  </div>
+</div>
+
+<div id="next-section">
+  <div class="circle-border">
+    <a href="#picture-carousel" class="smooth"><i class="hvr hvr-sink fa fa-angle-down" aria-hidden="true"></i></a>
+  </div>
+</div>
+
+
+<div id="testimonials">
+
+  <h1>IN THE WORDS OF MY CLIENTS</h1>
+
+  <div class="section group">
+	<div class="col span_1_of_3">
+	  <p>
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+      <br>
+      <span class="credit">-Lorem Ipsum</span>
+    </p>
+	</div>
+	<div class="col span_1_of_3">
+    <p>
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+      <br>
+      <span class="credit">-Lorem Ipsum</span>
+    </p>
+	</div>
+	<div class="col span_1_of_3">
+    <p>
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+      <br>
+      <span class="credit">-Lorem Ipsum</span>
+    </p>
+	</div>
+</div>
+
+</div>
+
+
+<div id="splash-image">
+  <h1>LETS WORK TOGETHER</h1>
+</div>
+
+
+<div id="picture-carousel">
+
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-slide-to="0" class="active"></li>
+      <li data-slide-to="1"></li>
+      <li data-slide-to="2"></li>
+      <li data-slide-to="3"></li>
+      <li data-slide-to="4"></li>
+    </ol>
+
+  <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+      <div class="item active">
+        <img src="images/blacktexture.jpg" alt="Chania">
+      </div>
+
+      <div class="item">
+        <img src="images/glassdoor.jpg" alt="Chania">
+      </div>
+
+      <div class="item">
+        <img src="images/oceantexture.jpg" alt="Flower">
+      </div>
+
+      <div class="item">
+        <img src="images/snowday.jpg" alt="Flower">
+      </div>
+
+      <div class="item">
+        <img src="images/blackcurve.jpg" alt="Flower">
+      </div>
+    </div>
+  </div>
+
+  <div class="carousel-text">
+    <p class="top-p">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    </p>
+
+    <h1>LITTLE TEXTURES</h1>
+
+    <p class="bottom-p">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    </p>
+
+  </div>
+
+</div>
+
+
+<div id="footer">
+  <div class="footer-container">
+
+    <h3>KEEP UP</h3>
+
+    <hr>
+
+    <ul>
+      <li><a href="#"><i class="fa fa-flickr" aria-hidden="true"></i></a></li>
+      <li><a href="#"><i class="fa fa-twitter-square" aria-hidden="true"></i></a></li>
+      <li><a href="#"><i class="fa fa-github-square" aria-hidden="true"></i></a></li>
+      <li><a href="#"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
+      <li><a href="#"><i class="fa fa-tumblr-square" aria-hidden="true"></i></a></li>
+    </ul>
+
+  </div>
+</div>
+
+
+
+
+<script src="js/script.js"></script>
+</body>
+</html>
